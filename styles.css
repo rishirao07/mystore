@@ -12,6 +12,7 @@ body{
 }
 .menu div {
     padding: 10px;
+    font-weight: bold
 }
 #product{
     margin: 10px;

@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="styles.css">
     <script src="index.js"></script>
 </head>
-<body onload="showProducts()">
+<body>
+    <div class="header">
     <h1>My Store</h1>
     <h4 onclick="displayCart()" style="cursor: pointer;">Cart:<span id="items"></span></h4>
+    </div>
     <hr>
     <div id="productBox" >
-        <h3>Products</h3>
         <div id="divProducts"></div>
     </div>
     <div id="cartBox" style="display: none;">
@@ -21,5 +22,7 @@
     <h4>Order Value:<span id="order"></span></h4>
     <button onclick="hideCart()">close</button>
     </div>
+    <hr>
+    <h4>@Copyright 2025. All rights reserved.</h4>
 </body>
 </html>

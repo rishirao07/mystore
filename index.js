@@ -101,4 +101,6 @@ const showProducts = (data) => {
     divProducts.innerHTML = str+"</div>";
   };
 
-
+  const displayProducts = () => {
+    productBox.style.display = "block";
+  }

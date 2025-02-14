@@ -7,6 +7,12 @@ body{
     justify-content: space-between;
     padding: 10px;
 }
+.menu{
+    display: flex;
+}
+.menu div {
+    padding: 10px;
+}
 #product{
     margin: 10px;
 }
